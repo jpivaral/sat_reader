@@ -1,6 +1,6 @@
 # Sat XML example reader
 
-# Steps to run
+## Steps to run
 
 1. Create environment
 
