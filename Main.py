@@ -1,4 +1,3 @@
-from os import CLD_EXITED
 import xml.etree.ElementTree as ET
 import click
 

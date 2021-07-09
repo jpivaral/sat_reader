@@ -11,7 +11,7 @@ python3 -m venv env
 2. Activate environment
 
 ```
-source env/bie/activate
+source env/bin/activate
 ```
 
 3. Intall dependencies 
