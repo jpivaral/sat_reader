@@ -17,11 +17,11 @@ source env/bin/activate
 3. Intall dependencies 
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 4. Run script
 
 ```
-python3 Main.py --xml_path=your_xml_full_path
+python3 Main.py --xml_path=path_xmls_to_read
 ```
