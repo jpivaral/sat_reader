@@ -18,7 +18,7 @@ def process_xml(xml_path):
     tree = ET.parse(xml_path)
     root = tree.getroot()
     version = '0.1.0'
-    if '0.2.0' in root.attrib['{http://www.w3.org/2001/XMLSchema-instance}schemaLocation']:
+    if '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation' in root.attrib and '0.2.0' in root.attrib['{http://www.w3.org/2001/XMLSchema-instance}schemaLocation']:
         version = '0.2.0'
     descripcion = list(root.iter('{http://www.sat.gob.gt/dte/fel/'+version+'}Descripcion'))
     nombres_impuestos = list(root.iter('{http://www.sat.gob.gt/dte/fel/'+version+'}NombreCorto'))
